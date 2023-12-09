@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Final</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="CSS file/Clock.css" />
+    <link rel="stylesheet" type="text/css" href="CSS file/Name.css" />
+    <link rel="stylesheet" type="text/css" href="CSS file/ToDo.css" />
+    <link rel="stylesheet" type="text/css" href="CSS file/Background.css" />
+    <link rel="stylesheet" type="text/css" href="CSS file/Weather.css" />
+  </head>
+  <body>
+    <!--background-->
+    <img />
+
+    <!--Clock-->
+    <div id="Clock">
+      <span></span>
+      <span></span>
+      <span></span>
+      <!--Weather-->
+      <span></span>
+    </div>
+    <!--Login Logout-->
+    <form id="NameForm">
+      <h1 id="HelloName" class="hidden"></h1>
+      <input
+        id="NameInput"
+        type="text"
+        placeholder="이름을 입력하세요"
+        required
+      />
+    </form>
+    <button id="Logout" class="hidden">로그아웃</button>
+    <!--ToDoList-->
+    <div class="Todo">
+      <form id="ToDoForm">
+        <input id="ToDoText" type="text" placeholder="To Do List" required />
+      </form>
+      <ul id="ToDoList"></ul>
+    </div>
+
+    <script src="JS file/Clock.js"></script>
+    <script src="JS file/Background.js"></script>
+    <script src="JS file/Name.js"></script>
+    <script src="JS file/ToDo.js"></script>
+    <script src="JS file/Weather.js"></script>
+  </body>
+</html>

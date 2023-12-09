@@ -1,0 +1,19 @@
+#Clock {
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+span:nth-child(1) {
+  display: block;
+  font-size: 150%;
+}
+span:nth-child(2) {
+  display: block;
+  font-size: 150%;
+}
+span:nth-child(3) {
+  display: block;
+  font-size: 350%;
+}
